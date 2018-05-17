@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Background color for app -->
+    <color name="grey_background">#E0E0E0</color>
+
+    <!-- yellow -->
+    <color name="yellow">#FFFF99</color>
+
+    <!-- purple -->
+    <color name="purple">#CC99FF</color>
+
+    <!-- red -->
+    <color name="blue">#16AFCA</color>
+</resources>

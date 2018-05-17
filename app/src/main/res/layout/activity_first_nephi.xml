@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/firstNephichapters"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:stretchColumns="0,1,2">
+
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich1"
+            android:text="Chapter 1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich2"
+            android:text="Chapter 2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich3"
+            android:text="Chapter 3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich4"
+            android:text="Chapter 4"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich5"
+            android:text="Chapter 5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich6"
+            android:text="Chapter 6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich7"
+            android:text="Chapter 7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich8"
+            android:text="Chapter 8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich9"
+            android:text="Chapter 9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich10"
+            android:text="Chapter 10"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich11"
+            android:text="Chapter 11"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich12"
+            android:text="Chapter 12"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich13"
+            android:text="Chapter 13"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich14"
+            android:text="Chapter 14"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich15"
+            android:text="Chapter 15"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich16"
+            android:text="Chapter 16"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich17"
+            android:text="Chapter 17"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich18"
+            android:text="Chapter 18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/firstNephiRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich19"
+            android:text="Chapter 19"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/firstNephich20"
+            android:text="Chapter 20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/firstNephich21"
+            android:text="Chapter 21"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+
+    <!-- display this button in 2nd column via layout_column(zero based) -->
+    <TableRow
+        android:id="@+id/firstNephiRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/firstNephich22"
+            android:layout_column="1"
+            android:text="Chapter 22"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"/>
+    </TableRow>
+
+</TableLayout>
