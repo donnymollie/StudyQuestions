@@ -19,7 +19,7 @@ public class FirstNephi extends AppCompatActivity {
         // The code in this method will be executed when 1Nephi button is clicked on.
         @Override
         public void onClick(View view) {
-            // Create a new intent to open the {@link FirstNephiActivity}
+            // Create a new intent to open the {@link FirstNephi1Activity}
             Intent firstNephi1Intent = new Intent(FirstNephi.this, firstNephi1.class);
             // Start the new activity
             startActivity(firstNephi1Intent);
