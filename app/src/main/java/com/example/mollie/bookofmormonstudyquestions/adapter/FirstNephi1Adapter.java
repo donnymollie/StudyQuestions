@@ -19,11 +19,14 @@ import java.util.List;
 public class FirstNephi1Adapter extends BaseAdapter {
     private Context context;
     private List<QuestionAnswer> mQuestionAnswerList;
+    private IsaveQuestionAnswer saveQuestionAnswerListener;
     DatabaseHelper myDbHelper;
 
-    public FirstNephi1Adapter(Context context, List<QuestionAnswer> mQuestionAnswerList) {
+    public FirstNephi1Adapter(Context context, List<QuestionAnswer> mQuestionAnswerList,
+                              IsaveQuestionAnswer saveQuestionAnswerListener) {
         this.context = context;
         this.mQuestionAnswerList = mQuestionAnswerList;
+        this.saveQuestionAnswerListener = saveQuestionAnswerListener;
     }
 
     @Override
@@ -76,6 +79,7 @@ public class FirstNephi1Adapter extends BaseAdapter {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                saveQuestionAnswerListener.saveData(charSequence.toString());
             }
 
             @Override

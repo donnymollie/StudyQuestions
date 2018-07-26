@@ -2,5 +2,5 @@ package com.example.mollie.bookofmormonstudyquestions.adapter;
 
 
 public interface IsaveQuestionAnswer {
-    public String saveData();
+    void saveData(String changedText);
 }
